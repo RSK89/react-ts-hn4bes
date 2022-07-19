@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
       <h1>{count}</h1>
-      <button onClick={() => SetCount(count + 1)}>Increment</button>
+      <button onClick={() => SetCount(count + 1)}>Increment</button><br/>
       <br />
       <input type="text" onChange={handle} />
       {Text}
